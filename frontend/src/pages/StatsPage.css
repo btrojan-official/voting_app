@@ -1,0 +1,91 @@
+.stats-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.stats-actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.stats-table-container {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e0e0e0;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stats-table thead {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  color: #d4af37;
+}
+
+.stats-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+.stats-table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.2s ease;
+}
+
+.stats-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.stats-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.stats-table td {
+  padding: 1rem;
+  color: #333;
+  vertical-align: top;
+}
+
+.postulates-cell {
+  max-width: 300px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.votes-cell {
+  font-weight: 600;
+  color: #d4af37;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.class-votes-cell {
+  min-width: 150px;
+}
+
+.class-vote-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+}
+
+.class-name {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.vote-count {
+  font-weight: 600;
+  color: #000;
+  margin-left: 1rem;
+}
